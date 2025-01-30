@@ -1,19 +1,21 @@
+import { EnvelopeIcon } from "@heroicons/react/24/solid"
 
 export const Header = () => {
 
     return (
-        <header className=" top-0 z-[20] mx-auto w-full items-center border border-gray-500">
+        <header className=" sticky top-0 z-[20] mx-auto w-full items-center">
             
             <nav className="mx-auto flex max-w-7xl justify-between p-6 lg:px-8">
             <a href="/" className="uppercase text-lg font-bold">Ossian Igelberg</a>
                 <div className="flex lg:flex-1"></div>
             <ul className="flex gap-8">
-                <li><button className="cursor-pointer text-gray-700 font-semibold hover:text-black hover:underline">About</button></li>
-                <li><button className="cursor-pointer text-gray-700 font-semibold hover:text-black hover:underline">Projects</button></li>
-                <li><button className="cursor-pointer text-gray-700 font-semibold hover:text-black hover:underline">Contact</button></li>
-                
+                <li className="cursor-pointer font-semibold border border-transparent px-3 py-1 hover:border-white hover:rounded-lg transition-all"><a href="#about">About</a></li>
+                <li className="cursor-pointer font-semibold border border-transparent px-3 py-1 hover:border-white hover:rounded-lg transition-all"><a href="#projects">Projects</a></li>
+                <li className="flex gap-2 cursor-pointer font-semibold border border-transparent px-3 py-1 hover:border-white hover:rounded-lg transition-all"><a href="#contact">Contact</a><EnvelopeIcon className="size-6"/></li>
             </ul>
             </nav>
         </header>
     )
 }
+
+
