@@ -1,8 +1,15 @@
+import { SocialIcon } from 'react-social-icons/component'
+import 'react-social-icons/github'
+
 
 export const Footer = () => {
   return (
-    <footer className="text-white text-center py-4">
-      <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+    <footer className=" py-4">
+      <section>
+      <SocialIcon network="github" />
+      <SocialIcon network='linkedin' url="https://www.linkedin.com/in/ossian-igelberg/" />
+      </section>
     </footer>
   );
 };
+
