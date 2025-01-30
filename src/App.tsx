@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className="bg-gradient-to-r from-black/95 to-black/85 text-white flex flex-col min-h-screen">
+    <div className="bg-gradient-to-r from-black/95 to-black/85 text-white flex flex-col">
     <Header />
     <Hero />
     <About />
