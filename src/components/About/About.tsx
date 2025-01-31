@@ -1,5 +1,6 @@
 import { StackCard } from "../StackCard/StackCard";
 import { HeroButton } from "../ui/Button/HeroButton";
+import { EnvelopeIcon } from "@heroicons/react/24/solid"
 
 
 export const About = () => {
@@ -11,8 +12,8 @@ export const About = () => {
         About me
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center max-w-">
-        <section className="px-12 py-6 flex flex-col gap-8">
+      <div className="flex flex-col md:flex-row justify-center lg:px-20 sm:px-5">
+        <section className=" lg:py-6 px-12 flex flex-col gap-8 lg:max-w-1/2 bg-white text-black items-center">
           <h3 className="text-3xl">Who I am</h3>
           <p className="leading-relaxed">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius a
@@ -25,11 +26,14 @@ export const About = () => {
             ratione asperiores praesentium similique amet nihil corporis
             molestias quod doloremque, qui nesciunt ipsa.
           </p>
+          <a href="#contact">
           <HeroButton>
-            <a href="#contact">Contact</a>
+            Contact me
+            <EnvelopeIcon className="size-7"/>
           </HeroButton>
+          </a>
         </section>
-        <section className="px-12 py-6 flex flex-col gap-5">
+        <section className="px-12 py-6 flex flex-col gap-5 bg-gray-200 text-black items-center">
           <h3 className="text-3xl">My skills</h3>
           <StackCard />
         </section>

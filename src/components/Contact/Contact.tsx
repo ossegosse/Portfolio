@@ -1,3 +1,5 @@
+import { HeroButton } from "../ui/Button/HeroButton";
+
 export const Contact = () => {
   return (
     <section
@@ -45,6 +47,7 @@ export const Contact = () => {
             className="h-20 px-2 rounded bg-gray-200"
           />
         </div>
+        <HeroButton>Submit</HeroButton>
       </form>
     </section>
   );

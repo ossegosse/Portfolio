@@ -1,3 +1,4 @@
+import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
 import { HeroButton } from "../ui/Button/HeroButton";
 
 export const Hero = () => {
@@ -12,9 +13,12 @@ export const Hero = () => {
         <h1 className=" md:text-5xl font-bold mb-4">Hello! I'm Ossian</h1>
         <h2 className="text-lg md:text-3xl mb-6">Software engineer</h2>
         <div className="flex gap-4">
+        <a href="#projects">
           <HeroButton>
-            <a>Projects</a>
+            Projects
+            <ArrowDownCircleIcon className="size-6"/>
           </HeroButton>
+          </a>
           
         </div>
       </div>
