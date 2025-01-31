@@ -13,7 +13,7 @@ export const About = () => {
       </h2>
 
       <div className="flex flex-col md:flex-row justify-center max-w-">
-        <section className="px-12 py-6 flex flex-col gap-4">
+        <section className="px-12 py-6 flex flex-col gap-8">
           <h3 className="text-3xl">Who I am</h3>
           <p className="leading-relaxed">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius a
@@ -30,7 +30,7 @@ export const About = () => {
             <a href="#contact">Contact</a>
           </HeroButton>
         </section>
-        <section className="px-12 py-6 flex flex-col gap-1">
+        <section className="px-12 py-6 flex flex-col gap-5">
           <h3 className="text-3xl">My skills</h3>
           <StackCard />
         </section>
