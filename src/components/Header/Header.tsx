@@ -3,9 +3,9 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid"
 export const Header = () => {
 
     return (
-        <header className=" top-0 z-[20] mx-auto w-full items-center">
+        <header className="sticky bg-black top-0 z-[20] mx-auto w-full items-center">
             
-            <nav className="mx-auto flex max-w-7xl justify-between p-6 lg:px-8">
+            <nav className="mx-auto flex max-w-7xl justify-between p-4 lg:px-8">
             <a href="/" className="uppercase text-lg font-bold">Ossian Igelberg</a>
                 <div className="flex lg:flex-1"></div>
             <ul className="flex gap-8">

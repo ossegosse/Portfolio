@@ -6,7 +6,6 @@ export const About = () => {
   return (
     <section id="about" className="flex flex-col justify-center items-center gap-10 bg-gray-900 min-h-screen">
       <h2
-        id="#about"
         className="uppercase font-bold text-4xl text-red-400 border-r-1 border-l-1 px-2"
       >
         About me

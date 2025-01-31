@@ -4,16 +4,18 @@ import { Hero } from "./components/Hero/Hero"
 import { About } from "./components/About/About"
 import { Footer } from "./components/Footer/Footer"
 import { Projects } from "./components/Projects/Projects"
+import { Contact } from "./components/Contact/Contact"
 
 function App() {
   
 
   return (
-    <div className="bg-gradient-to-r from-black/95 to-black/85 text-white flex flex-col">
+    <div className="text-white flex flex-col">
     <Header />
     <Hero />
     <About />
     <Projects />
+    <Contact />
     <Footer />
     </div>  
   )
