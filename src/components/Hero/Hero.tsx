@@ -2,7 +2,7 @@ import { HeroButton } from "../ui/Button/HeroButton";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen text-white text-center flex gap-8 justify-center items-center">
+    <section className="min-h-screen text-white text-center flex flex-col md:flex-row gap-8 justify-center items-center">
       <img
         src="/selfie.png"
         alt="picture"
@@ -15,9 +15,7 @@ export const Hero = () => {
           <HeroButton>
             <a>Projects</a>
           </HeroButton>
-          <HeroButton>
-            <a>Contact</a>
-          </HeroButton>
+          
         </div>
       </div>
     </section>

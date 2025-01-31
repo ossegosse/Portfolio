@@ -1,20 +1,25 @@
 
 const Techstack = [
     "React", 
+    "React Native",
     "Javascript",
     "Typescript",
     "Node.js",
     "TailwindCSS",
     "Figma",
     "CSS/SCSS",
+
     
 ]
 
 export const StackCard = () => {
-
-    
     return (
-        <div>
+        <div className="flex flex-wrap gap-6 p-4">
+            {Techstack.map((tech, index) => (
+                <div key={index} className="px-4 py-2 bg-gray-800 text-white text-bold font-medium rounded-lg shadow-md">
+                    {tech}
+                </div>
+            ))}
 
         </div>
     )
