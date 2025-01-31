@@ -1,13 +1,21 @@
 # Portfolio
 
+## Description
+
+## How to install and run the project
+
+1. Clone the repository
+2. Create a folder for the project
+3. cd portfolio in the terminal
+4. npm install in the terminal to install dependencies
+5. npm run dev in the terminal to run the project locally
+
 ## Tech-stack
 
 - React
 - Typescript
 - Built with Vite
 - Tailwind
-
-### More to come
 
 ### Libraries to use?
 
