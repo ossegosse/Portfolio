@@ -30,7 +30,7 @@ export const Contact = () => {
       id="contact"
       className="min-h-[80vh] flex flex-col justify-center items-center gap-10 bg-gray-900 py-16"
     >
-      <h2 className="uppercase font-bold text-4xl text-red-400 border-r-1 border-l-1 px-2">
+      <h2 className="uppercase font-bold text-4xl text-red-400 px-2">
         Contact
       </h2>
       <h3>
