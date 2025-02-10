@@ -29,7 +29,7 @@ export const Hero = () => {
           </a>
           
             <SocialIcon
-              className="size-1"
+              className="size-1 transform transition-all hover:scale-115"
               url="https://www.linkedin.com/in/ossian-igelberg/"
             />
           
