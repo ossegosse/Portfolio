@@ -28,7 +28,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-center items-center gap-10 bg-gray-900 min-h-screen py-10"
+      className="min-h-[80vh] flex flex-col justify-center items-center gap-10 bg-gray-900 py-16"
     >
       <h2 className="uppercase font-bold text-4xl text-red-400 border-r-1 border-l-1 px-2">
         Contact

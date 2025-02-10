@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <header className="sticky bg-white text-black top-0 z-[20] mx-auto w-full items-center">
             
-            <nav className="mx-auto flex max-w-7xl justify-between p-2 lg:px-8">
+            <nav className="mx-auto flex justify-between p-2 lg:px-15">
             <a href="/" className="uppercase text-lg font-bold">Ossian Igelberg</a>
                 <div className="flex lg:flex-1"></div>
             <ul className="flex gap-8">
