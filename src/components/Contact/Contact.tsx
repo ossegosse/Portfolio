@@ -1,4 +1,6 @@
 import emailjs from 'emailjs-com';
+import { ArrowRight } from "lucide-react";
+
 
 const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
@@ -23,12 +25,10 @@ export const Contact = () => {
     form.reset(); 
   };
   
-  
-
   return (
     <section
       id="contact"
-      className="min-h-[80vh] flex flex-col justify-center items-center gap-10 bg-gray-900 py-16"
+      className="min-h-[80vh] flex flex-col  items-center gap-10 bg-gray-900 py-16"
     >
       <h2 className="uppercase font-bold text-4xl text-red-400 px-2">
         Contact
@@ -72,12 +72,15 @@ export const Contact = () => {
             type="text"
             name="message"
             placeholder="Enter your message"
-            className="h-20 px-2 rounded bg-gray-200"
+            className="flex start lg:min-h-20 px-2 rounded bg-gray-200"
           />
         </div>
-        <button type="submit" className="flex justify-center gap-3 px-8 py-3 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none cursor-pointer transform transition-all hover:scale-105">
-            Submit
+        <div className='flex gap-5'>
+        <button type="submit" className="flex gap-2 px-4 font-bold py-3 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none cursor-pointer transform transition-all hover:scale-105">
+            Send
+            <ArrowRight />
           </button>
+          </div>
       </form>
     </section>
   );
