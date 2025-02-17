@@ -1,3 +1,4 @@
+
 export const Projects = () => {
   const projectData = [
     {
@@ -13,10 +14,13 @@ export const Projects = () => {
       repo: "https://github.com/ossegosse/recipe-finder"
     },
     {
-      title: "Project Two",
+      title: "Bookmark",
       description: "A search engine containing books and authors with data from OpenLibrary.org API. Search for books, favorite books and authors and add reviews.",
-      image: "https://via.placeholder.com/400",
-      tech: ["React", "Vite", "TypeScript", "SCSS", "React Router"],
+      images: [
+        "/book-finder.png", 
+        "/book-finder-2.png"
+      ],
+      tech: ["React", "Vite", "TypeScript", "SCSS", "React Router", "API: OpenLibrary.org"],
       link: "#",
       repo: "https://github.com/ossegosse/slutprojekt-js-ramverk"
     },
