@@ -6,9 +6,9 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center gap-10 bg-gray-900 "
+      className="min-h-screen flex flex-col justify-center items-center gap-10 bg-secondary "
     >
-      <h2 className="uppercase font-bold text-4xl text-red-400 px-2">
+      <h2 className="text-4xl font-bold text-center uppercase text-text-secondary px-2">
         About me
       </h2>
 
@@ -27,6 +27,9 @@ export const About = () => {
             and opportunities to learn and grow. I also like to spend my free
             time playing videogames, and read fantasy novels. Im a bit of a
             geek.
+            <br />
+            <br />
+            Be sure to send me and email if you want to work together!
           </p>
           <a href="#contact">
             <HeroButton>
@@ -35,7 +38,7 @@ export const About = () => {
             </HeroButton>
           </a>
         </section>
-        <section className="px-12 py-6 flex flex-col gap-5 bg-gray-200 text-black items-center rounded">
+        <section className="py-6 flex flex-col gap-5 bg-tertiary items-center rounded">
           <h3 className="text-3xl">My skills</h3>
           <StackCard />
         </section>

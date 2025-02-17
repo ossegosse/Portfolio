@@ -1,7 +1,21 @@
 @import "tailwindcss";
 
+
+
 @layer base {
     html {
       scroll-behavior: smooth;
     }
   }
+
+@theme {
+  --color-primary: #3F4E4F;
+  --color-secondary: #D9E4E0;
+  --color-tertiary: #7F8C8D;
+
+  --color-text-primary: #D9E4E0;
+  --color-text-secondary: #3F4E4F;
+  --color-text-accent: #E74C3C;
+
+  --font-primary: 'Roboto', sans-serif;
+}

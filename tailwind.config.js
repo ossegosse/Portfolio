@@ -7,8 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#e0e1dd",
+        bg: {
+          primary: "#2C3E50",
+          secondary: "#34495E",
+          tertiary: "#7F8C8D",
+        },
+        text: {
+          primary: "#ECF0F1",
+          secondary: "#BDC3C7",
+          accent: "#E74C3C",
+        },
       }
+      
     },
   },
   plugins: [],

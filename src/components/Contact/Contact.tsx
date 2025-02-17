@@ -28,19 +28,19 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-[80vh] flex flex-col  items-center gap-10 bg-gray-900 py-16"
+      className="min-h-[80vh] flex flex-col  items-center gap-5 bg-secondary py-12"
     >
-      <h2 className="uppercase font-bold text-4xl text-red-400 px-2">
+      <h2 className="uppercase font-bold text-4xl text-text-secondary px-2">
         Contact
       </h2>
-      <h3>
+      <h3 className="text-text-secondary text-sm sm:text-base md:text-lg lg:text-xl mb-4 font-bold">
         Feel free to contact me and I'll get back to you as soon as possible!
       </h3>
 
       <form
         action="post"
         onSubmit={handleOnSubmit}
-        className="flex flex-col border rounded px-8 py-8 bg-white text-black gap-12 w-3/6 shadow-lg"
+        className="flex flex-col rounded px-8 py-8 bg-white text-text-secondary gap-12 w-3/6 shadow-lg"
       >
         <div className="flex flex-col">
           <label htmlFor="" className="font-bold mb-2">
@@ -76,7 +76,7 @@ export const Contact = () => {
           />
         </div>
         <div className='flex gap-5'>
-        <button type="submit" className="flex gap-2 px-4 font-bold py-3 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none cursor-pointer transform transition-all hover:scale-105">
+        <button type="submit" className="flex gap-2 px-4 font-bold py-3 bg-tertiary text-white rounded-full shadow-lg hover:bg-gray-500 focus:outline-none cursor-pointer transform transition-all hover:scale-105">
             Send
             <ArrowRight />
           </button>

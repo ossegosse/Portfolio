@@ -6,16 +6,18 @@ import "react-social-icons/linkedin";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen bg-gray-950 text-white text-center flex flex-col md:flex-row gap-8 justify-center items-center">
+    <section className="min-h-screen bg-primary text-text-primary text-center flex flex-col lg:flex-row gap-8 sm:gap-6 md:gap-8 justify-center items-center">
+      
       <img
         src="/selfie.png"
         alt="picture"
-        className="h-96 w-96 object-cover rounded-full border-4 shadow-lg"
+        className="w-64 h-64 md:w-64 md:h-64 lg:w-96 lg:h-96 object-cover rounded-full border-4 shadow-lg"
       />
-      <div className="flex flex-col lg:w-100 items-center">
-        <h1 className=" md:text-5xl font-bold mb-4">Hello! I'm Ossian</h1>
-        <h2 className="text-lg md:text-3xl mb-6">Frontend Developer</h2>
-        <h3 className="text-lg md:text-1xl mb-6">
+      
+      <div className="flex flex-col sm:w-3/4 md:w-2/3 lg:w-1/2 items-center gap-3">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold ">Hello! I'm Ossian</h1>
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4">Frontend Developer</h2>
+        <h3 className="text-sm sm:text-base md:text-lg lg:text-xl mb-4">
           I have a passion for all things frontend and design while also trying
           to develop my backend skills, to someday be proud to call myself a
           fullstack developer
@@ -35,6 +37,7 @@ export const Hero = () => {
           
         </div>
       </div>
+      
     </section>
   );
 };
